@@ -1,6 +1,6 @@
 # Explain, monitor and improve your vision AI systems.
 
-**obz** is a Python package for monitoring, explainability, and outlier detection in computer vision models. It provides both local and cloud-based tools for data inspection, XAI generation, anomaly detection, and visualization.
+**ObzAI** is a Python package for monitoring, explainability, and outlier detection in computer vision models. It provides both local and cloud-based tools for data inspection, XAI generation, anomaly detection, and visualization.
 
 Please visit [Obz.AI](https://obz.ai/) for full offerings and documentations. 
 
