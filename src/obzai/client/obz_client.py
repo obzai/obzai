@@ -15,13 +15,13 @@ import torch
 import gzip
 import os
 
-from obz.client.logger_config import setup_logging
-from obz.client.credentials import read_netrc_key, write_netrc_key, get_api_key_interactively
-from obz.client.api_config import APIConfig
+from obzai.client.logger_config import setup_logging
+from obzai.client.credentials import read_netrc_key, write_netrc_key, get_api_key_interactively
+from obzai.client.api_config import APIConfig
 
-from obz.data_inspector.detector import GMMDetector, PCAReconstructionLossDetector
-from obz.xai.xai_tool import AttentionTool, GradientTool
-from obz.xai.xai_utils import normalize_xai_maps
+from obzai.data_inspector.detector import GMMDetector, PCAReconstructionLossDetector
+from obzai.xai.xai_tool import AttentionTool, GradientTool
+from obzai.xai.xai_utils import normalize_xai_maps
 
 ML_TASKS = {"binary_classification": 1,
             "multiclass_classification": 2,

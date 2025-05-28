@@ -16,8 +16,8 @@ from torch.utils.data import DataLoader
 import torch
 from tqdm import tqdm
 
-from obz.data_inspector.extractor import Extractor, FirstOrderExtractor, CLIPExtractor
-from obz.data_inspector.projector import EmbeddingProjector
+from obzai.data_inspector.extractor import Extractor, FirstOrderExtractor, CLIPExtractor
+from obzai.data_inspector.projector import EmbeddingProjector
 
 logger = logging.getLogger("data_inspector")
 
